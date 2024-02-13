@@ -10,7 +10,9 @@ public class Main {
         compareNumbers();
     }
     public static void printThreeWords() {
-        System.out.println("Orange Banana Apple");
+        System.out.println("Orange");
+        System.out.println("Banana");
+    System.out.println("Apple");
     }
 
     public static void checkSumSign() {
@@ -18,9 +20,9 @@ public class Main {
         int b = 4;
 
     if (a+b>=0)
-            System.out.println("sum is positive");
+            System.out.println("Сумма положительная");
   if (a+b<0)
-        System.out.println("sum is negative");
+        System.out.println("Сумма отрицательная");
 
 
     }
@@ -28,11 +30,11 @@ public class Main {
     public static void printCol() {
         int value = 50;
         if (value <=0) {
-            System.out.println("red");
+            System.out.println("Красный");
         } if (value>0 && value<100) {
-            System.out.println("yellow");
+            System.out.println("Желтый");
         } if (value>100) {
-            System.out.println("green");
+            System.out.println("Зеленый");
         }
     }
 
@@ -40,9 +42,9 @@ public class Main {
         int a = 15;
         int b = 35;
         if  (a>=b) {
-            System.out.println("a>=b");
+            System.out.println("a >= b");
         } if (a<b) {
-            System.out.println("a<b");
+            System.out.println("a < b");
         }
     }
 
