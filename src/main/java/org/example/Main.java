@@ -10,20 +10,19 @@ public class Main {
         compareNumbers();
     }
     public static void printThreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+        System.out.println("Orange Banana Apple");
     }
 
     public static void checkSumSign() {
         int a = 3;
         int b = 4;
-        int c = a + b;
-        if (c >= 0) {
+
+    if (a+b>=0)
             System.out.println("sum is positive");
-        } else {
-            System.out.println("sum is negative");
-        }
+  if (a+b<0)
+        System.out.println("sum is negative");
+
+
     }
 
     public static void printCol() {
