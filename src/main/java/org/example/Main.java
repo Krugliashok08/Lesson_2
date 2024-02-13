@@ -20,9 +20,9 @@ public static void checkSumSign() {
         int b = 4;
 
         if (a+b>=0)
-            System.out.println("Сумма положительная");
+         System.out.println("Сумма положительная");
         if (a+b<0)
-            System.out.println("Сумма отрицательная");
+         System.out.println("Сумма отрицательная");
 
 
     }
@@ -30,13 +30,13 @@ public static void checkSumSign() {
 public static void printCol() {
         int value = 50;
         if (value <=0) {
-            System.out.println("Красный");
+          System.out.println("Красный");
         }
         if (value>=1 && value<100) {
-            System.out.println("Желтый");
+          System.out.println("Желтый");
         }
         if (value>=101) {
-            System.out.println("Зеленый");
+          System.out.println("Зеленый");
         }
     }
 
@@ -44,9 +44,10 @@ public static void compareNumbers() {
         int a = 15;
         int b = 35;
         if  (a>=b) {
-            System.out.println("a >= b");
-        } if (a<b) {
-            System.out.println("a < b");
+          System.out.println("a >= b");
+        }
+        if (a<b) {
+          System.out.println("a < b");
         }
     }
 
