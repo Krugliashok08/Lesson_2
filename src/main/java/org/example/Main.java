@@ -6,7 +6,7 @@ public class Main {
 public static void main (String [] args) {
         printThreeWords();
         checkSumSign();
-        printCol();
+        printColor();
         compareNumbers();
     }
 public static void printThreeWords() {
@@ -27,12 +27,12 @@ public static void checkSumSign() {
 
     }
 
-public static void printCol() {
+public static void printColor() {
         int value = 50;
         if (value <=0) {
           System.out.println("Красный");
         }
-        if (value>=1 && value<100) {
+        if (value>=1 && value<=100) {
           System.out.println("Желтый");
         }
         if (value>=101) {
